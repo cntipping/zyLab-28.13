@@ -11,7 +11,7 @@ Lab Instructions:
 Build the ItemToPurchase class with the following specifications:
 
 - Default constructor
-  - Public class functions (mutators & accessors)
+- Public class functions (mutators & accessors)
   - SetName() & GetName() (2 pts)
   - SetPrice() & GetPrice() (2 pts)
   - SetQuantity() & GetQuantity() (2 pts)
