@@ -27,10 +27,14 @@ string ItemToPurchase::GetName(){
   return itemName;
 }
 int ItemToPurchase::GetPrice(){
-  return ItemPrice;
+  return itemPrice;
 }
+
 int ItemToPurchase::GetQuantity(){
   return itemQuantity;
 }
 
+void ItemToPurchase::Print(){
+  cout << itemName << " " << itemQuantity << " @ $" << itemPrice << endl;
+}
 
