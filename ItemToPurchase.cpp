@@ -6,7 +6,7 @@ using namespace std;
 /* Type your code here */
 
 ItemToPurchase::ItemToPurchase(){
-  itemName;
+  itemName = "none";
   itemPrice = 0;
   itemQuantity = 0;
 }
