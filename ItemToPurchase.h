@@ -12,13 +12,14 @@ class ItemToPurchase{
 
   Public:
   ItemToPurchase();
-  SetName(string name);
-  SetPrice(int price);
-  SetQuantity(int qty);
+  void SetName(string name);
+  void SetPrice(int price);
+  void SetQuantity(int qty);
 
   string GetName();
-  int SetPrice()
-  int SetQuantity();
+  int GetPrice()
+  int GetQuantity();
+
 
   void Print();
 }
