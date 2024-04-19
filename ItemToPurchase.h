@@ -5,5 +5,20 @@
 using namespace std;
 
 /* Type your code here */
+class ItemToPurchase{
+  private:
+  string itemName;
+  int itemQuantity
+
+  Public:
+  ItemToPurchase();
+  SetName(string name);
+  SetPrice(int price);
+  SetQuantity(int qty);
+
+  string GetName();
+  int SetPrice()
+  int SetQuantity();
+}
 
 #endif
