@@ -19,6 +19,8 @@ class ItemToPurchase{
   string GetName();
   int SetPrice()
   int SetQuantity();
+
+  void Print();
 }
 
 #endif
