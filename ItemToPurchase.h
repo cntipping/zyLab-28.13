@@ -8,7 +8,7 @@ using namespace std;
 class ItemToPurchase{
   private:
   string itemName;
-  int itemQuantity
+  int itemQuantity;
 
   Public:
   ItemToPurchase();
@@ -17,7 +17,7 @@ class ItemToPurchase{
   void SetQuantity(int qty);
 
   string GetName();
-  int GetPrice()
+  int GetPrice();
   int GetQuantity();
 
 
