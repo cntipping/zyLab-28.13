@@ -8,10 +8,13 @@ using namespace std;
 class ItemToPurchase{
   private:
   string itemName;
+  int ItemPrice;
   int itemQuantity;
 
-  Public:
-  ItemToPurchase();
+  public:
+  ItemToPurchase() = default;
+  ItemToPurchase(string name, int price, int qty);
+
   void SetName(string name);
   void SetPrice(int price);
   void SetQuantity(int qty);
@@ -20,8 +23,9 @@ class ItemToPurchase{
   int GetPrice();
   int GetQuantity();
 
-
   void Print();
-}
+
+};
+
 
 #endif
