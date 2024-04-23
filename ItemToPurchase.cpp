@@ -5,10 +5,10 @@ using namespace std;
 
 /* Type your code here */
 
-ItemToPurchase::ItemToPurchase(){
-  itemName;
-  itemPrice = 0;
-  itemQuantity = 0;
+ItemToPurchase::ItemToPurchase(string name, int price, int qty){
+  itemName = name;
+  ItemPrice = price;
+  itemQuantity = qty;
 }
 
 // setters
@@ -16,7 +16,7 @@ void ItemToPurchase::SetName(string name){
   itemName = name;
 }
 void ItemToPurchase::SetPrice(int price){
-  itemPrice = price;
+  ItemPrice = price;
 }
 void ItemToPurchase::SetQuantity(int qty){
   itemQuantity = qty;
@@ -32,5 +32,4 @@ int ItemToPurchase::GetPrice(){
 int ItemToPurchase::GetQuantity(){
   return itemQuantity;
 }
-
 
